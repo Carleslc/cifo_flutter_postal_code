@@ -110,7 +110,7 @@ Les pantalles de l'aplicació es troben a la carpeta **`screens`**. La pantalla 
 
 A **`providers`** es guarda l'estat global de l'aplicació del país seleccionat per l'usuari, a `country_provider.dart`.
 
-A la carpeta **`services`** hi ha el servei `CountryService`, que llegeix el fitxer `assets/iso-3166-ca.json` que conté els noms i codis dels països i les seves regions, i el servei `ZippopotamService` que accedeix da la API externa per obtenir codis postals i localitats, i conté informació sobre els països suportats per la API.
+A la carpeta **`services`** hi ha el servei `CountryService`, que llegeix el fitxer `assets/iso-3166-ca.json` que conté els noms i codis dels països i les seves regions, i el servei `ZippopotamService` que accedeix a la API externa per obtenir codis postals i localitats, i conté informació sobre els països suportats per la API.
 
 A la carpeta **`styles`** es troben els estils de l'aplicació, que s'accedeixen mitjançant la classe `AppStyles` definida a `app_styles.dart`. Les altres classes d'estils són per organitzar millor el codi i definir el tema de colors i textos.
 
